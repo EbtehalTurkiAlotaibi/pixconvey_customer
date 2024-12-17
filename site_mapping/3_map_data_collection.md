@@ -16,12 +16,9 @@ There are three ways to open a terminal after you open the first terminal:
 - Shortcut key to open;   
 - Place the mouse in the terminal box and right click to select Split Horizontally or Split Vertically. The effect is shown in the following figure. 
 
-![image](figures/terminals.png)
 
 Input `roscore` to start the first terminal. As long as it is not shut down in all the following uses, it only needs to be started once. If it fails to start, it means that it has been started. Refer to Figure 1 for successful start and Figure 2 for failed start
 
-![image](figures/roscore.png)
-![image](figures/roscore-failed.png)
 
 The second terminal enters the main program to start with the following command 
 
@@ -42,8 +39,6 @@ rostopic echo /rslidar_points
 
 If the radar has data, it is normal. After checking, Ctrl + C is required to close it. In the figure below the radar is normal.
 
-![image](figures/radar-echo.png)
-
 Open a new terminal and enter the following command to check the IMU: 
 
 ```
@@ -54,7 +49,6 @@ rostopic echo /imu_data
 
 If the IMU has data, data will appear as in the following figure. Ctrl + C is required to close it after checking.
 
-![image](figures/imu-echo.png)
 
 After starting the main program, start the program for collecting the map data packet at the third terminal. First define a starting point and an end point, start the program at the starting point, end the program at the end point, end operation: Ctrl + C, and end the program.  
 
@@ -82,7 +76,6 @@ rosbag info "packet name"
 
 If the red box in the following figure appears, it means that the acquisition is successful.
 
-![image](figures/rosbag-info.png)
 
 Default path of data package: in the folder `~/outboor-arm/src/scripts` with `.bag` at the end of all file names is the data package collected this time.   
 
