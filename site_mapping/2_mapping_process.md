@@ -3,7 +3,6 @@
 - The delivery vehicle
 
 ## Mapping Process 
-
 First, define the starting point and the end point for the map. The starting point starts and the end point ends. The delivery vehicle must be placed at the starting position before mapping begins, and mapping is completed when the vehicle arrives back at the same point. The operation of collecting map bag is the same as that of indoor and outdoor. If the map includes indoor and outdoor, the map can be built directly or merged/integrated
 
 The following are two schemes for collecting maps. In all cases, the starting and ending points of the collected map need to be closed at the same position. When collecting a new area, you need to have the same route as the existing map.
