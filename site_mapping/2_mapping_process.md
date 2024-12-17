@@ -11,7 +11,7 @@ The following are two schemes for collecting maps. In all cases, the starting an
 
 In this case, an 8-shaped route must be formed, and the routes that can be overlapped should be overlapped as possible, so that the map collected is more accurate. 
 
-![image](figures/figure-8.png)
+
 
 Delivery vehicle mapping mode, operation before starting the delivery vehicle 
 
@@ -19,4 +19,4 @@ Delivery vehicle mapping mode, operation before starting the delivery vehicle
 
 If the map is large, it is necessary to do a jigsaw puzzle. The jigsaw puzzle is to collect three maps separately and then merge them together. When collecting the map, there must be an overlapping route as the connecting route of the map. 
 
-![image](figures/jigsaw-puzzle.png)
+
