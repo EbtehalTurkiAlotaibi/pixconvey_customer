@@ -15,4 +15,4 @@ We are committed to providing a seamless experience with our autonomous delivery
 
 ---
 
-**Pixconvey Ltd.**
+**Pixconvey Team.**
