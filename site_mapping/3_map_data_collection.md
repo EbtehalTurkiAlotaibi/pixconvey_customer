@@ -16,6 +16,7 @@ There are three ways to open a terminal after you open the first terminal:
 - Shortcut key to open;   
 - Place the mouse in the terminal box and right click to select Split Horizontally or Split Vertically. The effect is shown in the following figure. 
 
+<img width="884" alt="Screen Shot 2024-12-17 at 8 57 54 AM" src="https://github.com/user-attachments/assets/430d8577-f7f2-496c-8c89-d1fb56734ed8" />
 
 Input `roscore` to start the first terminal. As long as it is not shut down in all the following uses, it only needs to be started once. If it fails to start, it means that it has been started. Refer to Figure 1 for successful start and Figure 2 for failed start
 
