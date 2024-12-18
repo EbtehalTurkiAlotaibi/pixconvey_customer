@@ -20,6 +20,9 @@ There are three ways to open a terminal after you open the first terminal:
 
 Input `roscore` to start the first terminal. As long as it is not shut down in all the following uses, it only needs to be started once. If it fails to start, it means that it has been started. Refer to Figure 1 for successful start and Figure 2 for failed start
 
+<img width="831" alt="Screen Shot 2024-12-17 at 8 58 47 AM" src="https://github.com/user-attachments/assets/4abed85f-3523-47c7-a326-d3b2b46ff08d" />
+
+<img width="612" alt="Screen Shot 2024-12-17 at 8 59 00 AM" src="https://github.com/user-attachments/assets/45b875a4-7efe-4de5-9e1b-2b33b6a1fbea" />
 
 The second terminal enters the main program to start with the following command 
 
@@ -39,6 +42,7 @@ rostopic echo /rslidar_points
 ```
 
 If the radar has data, it is normal. After checking, Ctrl + C is required to close it. In the figure below the radar is normal.
+<img width="877" alt="Screen Shot 2024-12-17 at 8 59 14 AM" src="https://github.com/user-attachments/assets/db9442bf-ade4-4f2c-90a5-b75ed9060ce1" />
 
 Open a new terminal and enter the following command to check the IMU: 
 
@@ -49,6 +53,7 @@ rostopic echo /imu_data
 ```  
 
 If the IMU has data, data will appear as in the following figure. Ctrl + C is required to close it after checking.
+<img width="824" alt="Screen Shot 2024-12-17 at 8 59 31 AM" src="https://github.com/user-attachments/assets/c11c73d2-f858-4070-bbd3-050803e2feb8" />
 
 
 After starting the main program, start the program for collecting the map data packet at the third terminal. First define a starting point and an end point, start the program at the starting point, end the program at the end point, end operation: Ctrl + C, and end the program.  
@@ -64,6 +69,7 @@ cd src/scripts
 
 Before mapping, it is necessary to collect a short map data packet to check whether there is recorded data and whether it is stored in the corresponding folder, so as to prevent recording empty packets.   
 
+
 There are two ways to check for empty packets:   
 
 - Check whether there is a package ending with .bag in the `~/outboor-arm/src/scripts` directory under the file. If there is no package, the recording fails.    
@@ -76,6 +82,7 @@ rosbag info "packet name"
 ```
 
 If the red box in the following figure appears, it means that the acquisition is successful.
+<img width="813" alt="Screen Shot 2024-12-17 at 8 59 54 AM" src="https://github.com/user-attachments/assets/af3bd170-2600-4028-b3bd-be9bf69b019b" />
 
 
 Default path of data package: in the folder `~/outboor-arm/src/scripts` with `.bag` at the end of all file names is the data package collected this time.   
