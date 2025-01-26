@@ -6,7 +6,7 @@ Welcome to the official **Pixie Customer Guidance** repository. This guide will 
 3. **Cloud Access Commands**
 
 ## Support
-For additional assistance, contact our support team at **info@pixconvey.net and AlexWebb@pixconvey.net **.
+For additional assistance, contact our support team at info@pixconvey.net and AlexWebb@pixconvey.net .
 
 ---
 
