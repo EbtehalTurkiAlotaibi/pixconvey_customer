@@ -14,7 +14,7 @@ Please note that these folders are organized here based on their natural impleme
 
 
 ## Support
-For additional assistance, contact our support team at info@pixconvey.net and AlexWebb@pixconvey.net .
+For additional assistance, contact our support team at info@pixconvey.net and Afnan.Alotaibi@pixconvey.net .
 
 ---
 
